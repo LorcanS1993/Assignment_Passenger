@@ -2,6 +2,7 @@ package ie.atu.Passenger;
 
 public class Passenger {
 
+    private String title;
     private String name;
     private String id;
     private int phone;
