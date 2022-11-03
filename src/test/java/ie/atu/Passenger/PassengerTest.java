@@ -37,8 +37,13 @@ import static org.junit.jupiter.api.Assertions.*;
             assertEquals("0851234567", phone.phone("0851234567"));
         }
         @Test
-        void testPhone(){
-            assertEquals("0851234567", phone.phone(""));
+        void testName(){
+            assertEquals("0851234567", name.name("Lorcan"));
+        }
+
+        @Test
+        void testId(){
+            assertEquals("G0028986500", id.id("G0028986500"));
         }
 
         @AfterEach
