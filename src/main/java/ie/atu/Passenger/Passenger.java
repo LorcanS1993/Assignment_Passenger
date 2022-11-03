@@ -38,8 +38,8 @@ public class Passenger {
         return id;
     }
 
-    public int phone(int p) {
-        int phone = p;
+    public String phone(String p) {
+        String phone = p;
         if (phone.length() > 7) {
             System.out.println(phone);
         } else {

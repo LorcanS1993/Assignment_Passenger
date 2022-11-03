@@ -29,7 +29,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
         @Test
         void testAge(){
-            assertEquals("29", age.age("29"));
+            assertEquals(29, age.age(29));
         }
 
         @Test
