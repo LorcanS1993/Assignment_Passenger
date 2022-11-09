@@ -2,6 +2,7 @@ package ie.atu.Passenger;
 
 public class Passenger {
 
+    // Added variables
     private String title;
     private String name;
     private String id;
@@ -31,7 +32,7 @@ public class Passenger {
 
     public String id(String i) {
         String id = i;
-        if (id.length() >= 10) {
+        if (id.length() > 10) {
             System.out.println(id);
         } else {
             throw new IllegalArgumentException("ID must be 10 characters");
